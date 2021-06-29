@@ -1,0 +1,80 @@
+.post {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  padding-bottom: 16.01px;
+}
+
+.post__pic {
+  margin-left: 24px;
+  margin-right: 23px;
+  margin-top: 12px;
+  border-radius: 6px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.post__pic:hover {
+  transform: scale(2);
+}
+
+.post__msg__header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 14px;
+  color: #494949;
+}
+
+.username {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+}
+
+.separator {
+  display: inline-block;
+  margin-left: 7px;
+  margin-right: 7px;
+  height: 5px;
+  border-radius: 100%;
+  width:5px;
+  background: #E5E5E5;
+}
+
+.time {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #D1D1D1;
+}
+
+.parrot {
+  content: url('/src/assets/images/greyscale.svg');
+  align-self: center;
+  margin-right: 10px;
+  width: 28px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.parrot:hover {
+  content: url('/src/assets/images/parrot.gif');
+}
+
+.parrot-color {
+  content: url('/src/assets/images/parrot.gif');
+  cursor: pointer;
+}
+
+.parroted-post {
+  background-color: #FFFAE7;
+}
+
+.post__msg__text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #494949;
+  margin-top: 5px;
+}

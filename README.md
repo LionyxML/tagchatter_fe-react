@@ -47,4 +47,3 @@ A build é minificada e os nomes de arquivos incluem os hashes.\
 O aplicativo então está pronto para ser distribuído.
 
 É possível testar com `serve build` e acessar o [http://localhost:5000](http://localhost:5000).
-# tagchatter_fe-react
